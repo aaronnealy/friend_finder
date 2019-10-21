@@ -58,8 +58,6 @@ Once you input all your scores, they will be calulated against other users score
 * Node.js
 * Heroku
 
-### Live site
 
-* deployed: 
 
 
