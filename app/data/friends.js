@@ -1,43 +1,103 @@
-let friends =
+var friends = 
 [{
-    name: "Harry Potter",
-    photo: "https://timedotcom.files.wordpress.com/2014/07/301386_full1.jpg",
-    score: [
-        
-    ]
-},
-{
-    name: "Sabrina Spellman",
-    photo: "https://vignette.wikia.nocookie.net/riverdale/images/1/1b/CAOS-S1-Sabrina-Spellman-Promotional-Portrait-01.jpg/revision/latest/top-crop/width/320/height/320?cb=20181103190011&path-prefix=fr",
-    score:[
+    name:"Ahmed",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Man_with_freckles.jpg/440px-Man_with_freckles.jpg",
+    scores:[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    name:"Bob",
+    photo:"https://thoughtcatalog.files.wordpress.com/2016/08/photo-1441622915984-05d13dfb3d8c.jpg?w=2280&h=1520&resize=2280,1520&quality=95&strip=all&crop=1",
+    scores:[
+        4,
+        3,
+        2,
+        1,
+        5,
+        1,
+        2,
+        3,
+        4,
+        1
+      ]
+  },
+  {
+    name:"Jane",
+    photo: "https://www.gannett-cdn.com/presto/2018/09/24/PCHH/59a3b3c0-2f08-4eca-86ec-1eca12f14911-Gritty.jpg?width=534&height=712&fit=bounds&auto=webp",
+    scores:[
+        1,
+        2,
+        4,
+        3,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1
+      ]
+  },
+  {
+    name:"Amanda",
+    photo: "https://data.whicdn.com/images/252121316/large.jpg",
+    scores:[
+        5,
+        2,
+        1,
+        3,
+        4,
+        2,
+        1,
+        1,
+        2,
+        5
+      ]
+  },
+  {
+    name:"Jerry",
+    photo: "https://www.gannett-cdn.com/-mm-/eeff8611dcc0d1a8d9974c3185e004ff300ea12f/c=0-108-3443-4698/local/-/media/2017/06/05/USATODAY/USATODAY/636323000103921490-XXX-Max-Rose-Jerry-Lewis-019.jpg?width=534&height=712&fit=crop",
+    scores:[
+        1,
+        2,
+        3,
+        4,
+        5,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+  },
+  {
+    name:"Quixote",
+    photo: "https://d25rq8gxcq0p71.cloudfront.net/language-guide/1516/handsomeguy.jpg",
+    scores:[
+        3,
+        4,
+        5,
+        5,
+        3,
+        5,
+        5,
+        2,
+        3,
+        4
+      ]
+  }
 
-    ]
-},
-{
-    name: "Madison Montgomery",
-    photo: "https://mystylenews.com/wp-content/uploads/2018/08/ccelebritiesfotors_600x600-180807105008-600-ahs-coven2.jpg",
-    score:[
 
-    ]
-},
-{
-    name: "Prudence Night",
-    photo: "https://www.thewrap.com/wp-content/uploads/2018/10/Chilling-Advenures-of-Sabrina-Prudence.jpg",
-    score:[
 
-    ]
-},
-{
-    name: "Bonnie Bennett",
-    photo: "https://pmctvline2.files.wordpress.com/2016/04/the-vampire-diaries-kat-graham-leaving.jpg?w=620&h=420&crop=1",
-    score:[
+]
 
-    ]
-},
-{
-    name: "Dr. Strange",
-    photo: "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/44/1477933942-doctor-strange-movie-composer-cumberbatch.jpg?crop=0.500xw:1.00xh;0.291xw,0&resize=480:*",
-    score:[
-
-    ]
-}]
+module.exports = friends;

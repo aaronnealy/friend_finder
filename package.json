@@ -1,23 +1,26 @@
 {
-  "name": "friend_finder",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "A friend finder app built with node and express",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "engines": {
+      "node": "10.x"
+    }
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaronnealy/friend_finder.git"
   },
-  "author": "Aaron L Nealy",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aaronnealy/friend_finder/issues"
   },
   "homepage": "https://github.com/aaronnealy/friend_finder#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.16.4"
   }
 }
